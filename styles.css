@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+   max-width: 400px;
+   margin: auto;
+}
+
+
+
+body {
+    background-color: hsl(225, 100%, 94%);
+    min-height: 100vh;
+    display: flex;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+    justify-content:center;
+
+}
+
+.card img {
+    
+    border-radius: 17px 17px 0px 0px;
+    padding: 0;
+    width: 100%;
+    margin: auto;
+    padding-bottom: 7px;
+}
+
+.card {
+    background-color: hsl(0, 0%, 100%);
+    padding: 0;
+    padding-top: 0px;
+    border-radius: 18px;
+    
+    padding-bottom: 30px;
+    margin: 0;
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+    .attribution a { 
+        color: hsl(228, 45%, 44%); 
+    }
+
+    .text {
+       
+       text-align: center;
+       margin: 20px;
+    }
+
+    .text h1 {
+        padding-bottom: 3px;
+        padding-top: 5px;
+    }
+       .text p {
+        font-size: 16px;
+        color: hsl(0, 1%, 53%);
+        font-weight: lighter;
+     
+       }
+
+       img {
+        max-width: 100%;
+    }
+       .annual {
+           font-size: 14px;
+       }
+
+       .year {
+        font-size: 12px;
+        color: hsl(0, 1%, 53%);
+
+       }
+
+     
+      a  {
+          color: hsl(245, 75%, 52%);
+          font-size: 13px;
+        font-weight: bold;
+        
+        
+      }
+      
+      
+       
+       
+      
+    
+      #plan {
+    
+        background-color: hsl(225, 100%, 98%);
+        border-radius: 7px;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+        margin: 48px;
+        padding: 20px 33px;
+       
+    }
+
+      .payment {
+          padding: 18px 94px;
+          border-radius: 7px;
+          background-color: hsl(245, 75%, 52%) ;
+          color: hsl(0, 0%, 100%);
+          border: 0;
+          font-family: 'Red Hat Display', sans-serif;
+        font-size: 12px;
+        font-weight: bold;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, .5);
+      }
+
+
+
+      .cancel {
+          border: none;
+          font-family: 'Outfit', sans-serif;
+          font-weight: bold;
+          color: hsl(0, 1%, 53%);
+          background-color: transparent;
+          background-repeat:no-repeat;
+          border: none;
+
+      }
+
+     .button {
+         text-align: center;
+     }
+      /* the transparent feature, no repeat and border none helped remove the white background on the cancel order button */
